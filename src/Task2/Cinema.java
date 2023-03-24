@@ -48,7 +48,7 @@ public class Cinema {
     }
 
     public boolean cancelReservation(int row, int seat) {
-        if (seats[row][seat].equals("x")) {
+        if (seats[row][seat].equals("X")) {
             seats[row][seat] = "O";
             return true;
         }
